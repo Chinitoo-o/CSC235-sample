@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>CSC 235 Bootstrap Sample</title>
+    <title>CSC 235 Bootstrap Sample-Alex Ruiz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Joshua Connor" />
     <!-- Google Fonts   -->
@@ -20,6 +20,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -84,18 +85,17 @@
           </div>
         </nav>
       </header>
-      <main class="container-fluid">
-        <div class="row">
-          <aside class="col-4">
+      <main class="container my-5">
+        <div class="col-md-5">
             <img
-              src="https://picsum.photos/300/200"
+              src="https://picsum.photos/600/450"
               alt="Description"
-              class="img-fluid"
+              class="img-fluid rounded-start"
             />
-          </aside>
-          <section class="p-2 col-8">
-            <h1>Welcome to CSC 235</h1>
-            <p>
+          <div class="col-md-7">
+            <div class="card-body">
+            <h1 class="card-title">Welcome to CSC 235</h1>
+            <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               arcu eros, cursus id hendrerit sed, commodo ac neque. Nulla
               tristique nisi orci, vel ultricies magna interdum vel. Aliquam
@@ -124,6 +124,7 @@
             </p>
           </section>
         </div>
+          </div>
       </main>
       <footer class="bg-light text-center py-4">
         <p class="mb-0">Current Time: <span id="time"></span></p>
